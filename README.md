@@ -9,11 +9,13 @@ This website aims to invite and let tourists know the fascinating city of Xiamen
 - Shows different transportations to travel there
 - Promotes the colourful cuisine and culture
 
-![landing](screenshot/x_landing.png)
-![attractions](screenshot/x_attr.png)
-![history](screenshot/x_hist.png)
-![transport](screenshot/x_trans.png)
-![cuisine](screenshot/food.png)
+| Images |
+| ------ |
+| ![landing](screenshot/x_landing.png) |
+| ![attractions](screenshot/x_attr.png) |
+| ![history](screenshot/x_hist.png) |
+| ![transport](screenshot/x_trans.png) |
+| ![cuisine](screenshot/food.png) |
 
 ## Logbook feature
 The website also allows users to login to the site and save locations that they have visited.
