@@ -20,5 +20,7 @@ This website aims to invite and let tourists know the fascinating city of Xiamen
 ## Logbook feature
 The website also allows users to login to the site and save locations that they have visited.
 
-![user page](screenshot/x_user.png)
-![logbook](screenshot/x_log.png)
+| Images |
+| ------ |
+| ![user page](screenshot/x_user.png) |
+| ![logbook](screenshot/x_log.png) |
