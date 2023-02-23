@@ -1,0 +1,37 @@
+.heading {
+    text-align: center;
+    padding: 40px 0 0;
+    color: var(--text);
+}
+
+.subheading {
+    text-align: center;
+    padding: 20px 0 0;
+    color: var(--text);
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.module {
+    min-height: calc(100vh - 130px);
+}
+
+.return {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button {
+    background: var(--text);
+    font-family: var(--default-font);
+    font-size: 1rem;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    overflow: visible;
+}
+

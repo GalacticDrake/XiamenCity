@@ -1,0 +1,32 @@
+body {
+    line-height: inherit; /* overwrite bootstrap */
+}
+
+#custom-nav {
+    display: block; /* overwrite bootstrap */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* overwrite bootstrap */
+}
+
+/* Customisation */
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.accordion-button {
+    color: var(--emp);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--bg-1);
+    color: var(--text);
+}
+
+#sidebar {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25em;
+    padding: .5rem 0;
+}

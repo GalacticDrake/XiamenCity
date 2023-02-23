@@ -1,0 +1,96 @@
+/* Custom Food */
+.card-container.outcard {
+    width: 400px;
+    height: 330px;
+}
+
+.card-container.incard {
+    width: 220px;
+    height: 160px;
+}
+
+.card-container.one .card {
+    background: url(../src/food-1.jpg);
+    background-size: cover;
+}
+
+.card-container.two .card {
+    background: url(../src/food-2.jpg);
+    background-size: cover;
+}
+
+.card-container.three .card {
+    background: url(../src/food-3.jpg);
+    background-size: cover;
+}
+
+.card-container.four .card {
+    background: url(../src/food-4.jpg);
+    background-size: cover;
+}
+
+.card-container.five .card {
+    background: url(../src/food-5.jpg);
+    background-size: cover;
+}
+
+.card-container.six .card {
+    background: url(../src/food-6.jpg);
+    background-size: cover;
+}
+
+.card-container.seven .card {
+    background: url(../src/food-7.jpg);
+    background-size: cover;
+}
+
+.card-container.seven .card::after {
+    content: 'Non-halal';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: rgba(255, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+}
+
+.card-container.eight .card {
+    background: url(../src/food-8.jpg);
+    background-size: cover;
+}
+
+.card-container.nine .card {
+    background: url(../src/food-9.jpg);
+    background-size: cover;
+}
+
+.card-container.ten .card {
+    background: url(../src/food-10.jpg);
+    background-size: cover;
+}
+
+.card-container.eleven .card {
+    background: url(../src/food-11.jpg);
+    background-size: cover;
+}
+
+.card-container.twelve .card {
+    background: url(../src/food-12.jpeg);
+    background-size: cover;
+}
+
+.card-container.thirteen .card {
+    background: url(../src/food-13.jpg);
+    background-size: cover;
+}
+
+.card-container.fourteen .card {
+    background: url(../src/food-14.jpg);
+    background-size: cover;
+}
+
+.card-container.fifteen .card {
+    background: url(../src/food-15.jpg);
+    background-size: cover;
+}

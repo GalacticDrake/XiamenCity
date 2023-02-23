@@ -1,0 +1,141 @@
+.heading {
+    text-align: center;
+    padding: 40px 0 0;
+    color: var(--text);
+}
+
+.subheading {
+    text-align: left;
+    padding: 20px 0 0;
+    color: var(--emp);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.animate {
+    animation: fadeUp 1s;
+}
+
+.heading.title {
+    font-size: 2rem;
+}
+
+.module {
+    min-height: calc(100vh - 59px);
+}
+
+/* Containers */
+.container {
+    width: 870px;
+    margin: 0 auto 40px;
+}
+
+.empty {
+    color: var(--text);
+}
+
+/* Flexboxes */
+.flexbox {
+    display: flex;
+}
+
+.outerflex {    
+    max-width: none;
+    width: 100%;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    text-align: center;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 220px;
+    height: 125px;
+}
+
+.card-container:hover .card,
+.card-container:focus .card {
+    transform: scale(1.2);
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.card-container .card {
+    box-sizing: border-box;
+    transition: transform 0.4s;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.card-container .card::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--tr-black);
+}
+
+.card-container .title {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;  
+    text-align: left; 
+}
+
+.innerflex {
+    max-width: 460px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Options */
+.options {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options a {
+    display: block;
+}
+
+.options a.info {
+    border-radius: 50px;
+    border: solid 2px white;
+    padding: 5px 20px;
+    width: 100px;
+    margin: 0 auto 10px;
+}
+
+.options a.button {
+    border-radius: 50px;
+    background: white;
+    color: var(--text);
+    padding: 5px 20px;
+    width: 100px; 
+}
+
+/* Hover behaviour */
+.card-container:hover .title {
+    display: none;
+}
+
+.card-container:hover .options {
+    display: flex;
+}

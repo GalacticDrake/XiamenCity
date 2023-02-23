@@ -1,0 +1,66 @@
+/* Attractions */
+
+    /* Custom cards */
+    .card-container.one {
+        width: 400px;
+        height: 330px;
+    }
+
+    .card-container.two, .card-container.three,
+    .card-container.four, .card-container.five {
+        width: 220px;
+        height: 160px;
+    }
+
+    .card-container.one .card {
+        background: url(../src/gulangyu.jpg);
+        background-position-y: -150px;
+    }
+
+    .card-container.two .card {
+        background: url(../src/temple.jpg);
+        background-size: cover;
+    }
+
+    .card-container.three .card {
+        background: url(../src/garden.jpg);
+        background-size: cover;
+    }
+
+    .card-container.four .card {
+        background: url(../src/fortress.jpg);
+        background-size: cover;
+    }
+
+    .card-container.five .card {
+        background: url(../src/jimei.jpg);
+        background-size: cover;
+    }
+
+/* Interest */
+
+    /* Custom cards */
+    .card-container {
+        width: 220px;
+        height: 160px;
+    }
+
+    .card-container.six .card {
+        background: url(../src/baicheng.jpg);
+        background-size: cover;
+    }
+
+    .card-container.seven .card {
+        background: url(../src/history.jpg);
+        background-size: cover;
+    }
+
+    .card-container.eight .card {
+        background: url(../src/food.jpg);
+        background-size: cover;
+    }
+
+    .card-container.nine .card {
+        background: url(../src/train.jpg);
+        background-size: cover;
+    }

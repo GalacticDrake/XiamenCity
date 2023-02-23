@@ -1,0 +1,122 @@
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.module:last-child {
+    margin-bottom: 40px;
+}
+
+/* Attractions */
+.container {
+    position: relative;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 90%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-container.right {
+    text-align: right;
+}
+
+.container .desc {
+    background: var(--text);
+    width: 400px;
+    min-height: 200px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    border-radius: 5px;
+}
+
+.container .desc.right {
+    right: 0;
+}
+
+.container .desc .title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.container .desc .subtitle {
+    line-height: 1.5rem;
+}
+
+.desc .link {
+    margin-top: 5px;
+    display: inline-block;
+    line-height: 24px;
+    color: var(--bg-1);
+    position: relative;
+}
+
+.desc .md-icon {
+    transform: rotate(-45deg);
+    margin-left: 0;
+    position: absolute;
+    bottom: 3px;
+    right: -20px;
+}
+
+.text-cont {
+    margin: 5px 0;
+    background: var(--bg-3);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.text-cont:first-child {
+    margin-top: 15px;
+}
+
+.container .desc.custom-1 {
+    top: 80px;
+}
+
+.desc-2 {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    background: var(--bg-1);
+}
+
+.desc-2 .card {
+    margin-right: 20px;
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+.desc-2 .title {
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.desc-2 .text {
+    color: var(--emp);
+}
+
+.desc-2 .no-sup {
+    line-height: 25px;
+}
+
+.ori-link {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ori-link a:link,
+.ori-link a:visited {
+    color: var(--text);
+}

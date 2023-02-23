@@ -1,0 +1,106 @@
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Attractions */
+.container {
+    position: relative;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 90%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-container.right {
+    text-align: right;
+}
+
+.container .desc {
+    background: var(--text);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    border-radius: 5px;
+}
+
+.container .desc.right {
+    right: 0;
+}
+
+.container .desc .title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.container .desc .subtitle {
+    line-height: 1.5rem;
+}
+
+/* Other Attractions */
+.outerflex {
+    max-width: none;
+    width: 870px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 220px;
+    height: 160px;
+    flex-basis: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--tr-black);
+}
+
+.card-container.active:hover .card {
+    transform: none;
+    cursor: default;
+}
+
+.card-container.active .card::before {
+    background-color: var(--tr-very-black);
+}
+
+.desc-container {
+    width: 90%;
+    margin: 20px auto 50px;
+    background: var(--bg-1);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.desc-container .title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--emp);
+}
+
+.desc-container .desc {
+    color: var(--text);
+    min-height: 30vh;
+}

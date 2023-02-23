@@ -1,0 +1,65 @@
+.module {
+    margin-bottom: 40px;
+}
+
+.subheading {
+    padding-bottom: 40px;
+}
+
+/* Flexbox */
+.outerflex {
+    max-width: none;
+    width: 870px;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card-container {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 5px;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--tr-black);
+    border-radius: 5px;
+}
+
+.card-container.active:hover .card {
+    transform: none;
+    cursor: default;
+}
+
+.card-container.active .card::before {
+    background-color: var(--tr-very-black);
+}
+
+.card-container .title {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;   
+    color: white;
+}
+
+.innerflex {
+    max-width: 460px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

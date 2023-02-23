@@ -1,0 +1,232 @@
+/* Section One */
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.container .image {
+    width: 100%;
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .image::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: var(--tr-black);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner-container {
+    width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+}
+
+.inner-container .toolbar {
+    padding: 10px 0;
+    justify-content: right;
+}
+
+.inner-container .toolbar a {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0;
+    font-family: var(--default-font);
+    font-size: 1rem;
+    background: var(--button-bg);
+    color: white;
+    transition: 0.4s;
+}
+
+.inner-container .toolbar a:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.inner-container .toolbar div {
+    line-height: 39px;
+    color: rgb(240, 240, 240);
+}
+
+.inner-container .desc-1 {
+    background: var(--text);
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.desc-1 .title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.desc-1 .subtitle {
+    line-height: 1.5rem;
+}
+
+.module-space {
+    height: 70px;
+}
+
+/* Details */
+.flexbox {
+    display: flex;
+}
+
+.desc-parent-2 {
+    margin: 50px;
+}
+
+.desc-2 {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    background: var(--bg-1);
+}
+
+.desc-2 .card {
+    margin-right: 20px;
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+.desc-2 .card:first-child {
+    min-width: 150px;
+}
+
+.desc-2 .card:last-child {
+    margin-right: 0;
+}
+
+.desc-2 .title {
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.desc-2 .text {
+    color: var(--emp);
+}
+
+.desc-2 .no-sup {
+    line-height: 25px;
+}
+
+.ori-link {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ori-link a:link,
+.ori-link a:visited {
+    color: var(--text);
+}
+
+/* Map */
+.map {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto; 
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Explore */
+.explore {
+    padding: 50px 0;
+}
+
+.heading {
+    text-align: center;
+    padding: 40px 0 0;
+    color: var(--text);
+}
+
+.heading.title {
+    font-size: 2rem;
+}
+
+.outerflex {
+    margin: 50px auto 20px;
+    max-width: 1000px;
+    width: 80%;
+    justify-content: center;
+}
+
+.explore .card-container {
+    text-align: center;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.explore .card-container:hover .card,
+.explore .card-container:focus .card {
+    transform: scale(1.2);
+}
+
+.explore .card {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+    background-size: cover;
+}
+
+.explore .card::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--tr-black);
+}
+
+.explore .card-container .title {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;   
+}
+
+.innerflex {
+    max-width: 460px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+    /* Custom cards */
+    .explore .card-container.large {
+        width: 300px;
+        height: 260px;
+    }
+
+    .explore .card-container.small {
+        width: 220px;
+        height: 125px;
+    }
+
+.explore .card-container.no-transform:hover .card,
+.explore .card-container.no-transform:focus .card {
+    transform: none;
+}

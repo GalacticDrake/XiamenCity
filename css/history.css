@@ -1,0 +1,254 @@
+.module {
+    visibility: visible;
+}
+
+/* Interactive */
+.interact {
+    position: relative;
+    width: 1200px;
+    height: 1830px;
+    margin: 40px auto;
+}
+
+.vertical {
+    height: 1600px;
+    width: 8px;
+    margin: 0 auto;
+    background: var(--bg-1);
+    z-index: 2;
+    border-radius: 50px;
+}
+
+.v-c {
+    height: 200px;
+    width: 8px;
+    margin: 0 auto;
+    background: white;
+    z-index: 5;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1620px;
+}
+
+.mov-v {
+    height: 5px;
+    width: 8px;
+    margin: 0 auto;   
+    background: var(--bg-2);
+    z-index: 4;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    border-radius: 50px;
+}
+
+.l-cont {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    z-index: 3;  
+}
+
+.marker {
+    height: 5px;
+    width: 8px;
+    background: var(--bg-2);
+    margin: 0 auto;
+}
+
+.label {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    right: 250px;
+    width: 400px;
+    margin: 0 auto;
+    color: var(--text);
+}
+
+    /* Custom Markers */
+    .label.left {
+        right: 450px;
+        text-align: right;
+    }
+
+    .label.right {
+        left: 630px;
+        text-align: left;
+    }
+
+    .l-2 {
+        top: 300px;
+    }
+
+    .l-3 {
+        top: 350px;
+    }
+
+    .l-4 {
+        top: 430px;
+    }
+
+    .l-5 {
+        top: 460px;
+    }
+
+    .l-6 {
+        top: 550px;
+    }
+
+    .l-7 {
+        top: 650px;
+    }
+
+    .l-8 {
+        top: 680px;
+    }
+
+    .l-9 {
+        top: 895px;
+    }
+
+    .l-10 {
+        top: 1290px;
+    }
+
+    .l-11 {
+        top: 1350px;
+    }
+
+    .l-11 .label {
+        top: -40px;
+    }
+
+.p-cont {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    z-index: 6;
+}
+
+.pointer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--bg-2);
+    margin: 0 auto;
+}
+
+.pointer.active {
+    background: var(--text);
+}
+
+.d-cont {
+    position: relative;
+    width: 100%;
+    display: none;
+    z-index: 5;
+}
+
+.d-cont .container {
+    padding: 20px;
+    color: var(--text);
+    background: var(--bg-2);
+    border-radius: 5px;
+    max-width: 500px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.d-cont .container.active {
+    background: var(--text);
+    color: white;
+}
+
+.d-cont .container .title {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+    /* Animate */
+    .animate {
+        animation: fadeUp 1s;
+        display: block;
+    }
+
+    @keyframes fadeUp {
+        0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        }
+
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+    }
+
+    /* Custom Info */
+    .d-left .container {
+        right: 650px; 
+        left: 0;
+    }
+
+    .d-right .container {
+        right: 0; 
+        left: 650px;    
+    }
+
+    .d-1, .p-1 {
+        top: 50px;
+    }
+
+    .d-1 {
+        display: block;
+    }
+
+    .d-2, .p-2 {
+        top: 500px;
+    }
+
+    .d-3, .p-3 {
+        top: 700px;
+    }
+ 
+    .d-4, .p-4 {
+        top: 900px;
+    }
+
+    .d-5, .p-5 {
+        top: 950px;
+    }
+
+    .d-6, .p-6 {
+        top: 1100px;
+    }
+
+    .d-7, .p-7 {
+        top: 1150px;
+    }
+
+    .d-8, .p-8 {
+        top: 1300px;
+    }
+
+    .d-9, .p-9 {
+        top: 1335px;
+    }
+
+    .d-10, .p-10 {
+        top: 1420px;
+    }
+
+    .d-11, .p-11 {
+        top: 1450px;
+    }
+
+    .d-12, .p-12 {
+        top: 1600px;
+    }
